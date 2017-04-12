@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>bitone</title>
+<link href="css/base.css" rel="stylesheet" />
+<link rel="icon" href="http://www.evener.com/bitone/images/bitone.ico" />
+<link rel="stylesheet" type="text/css" href="css/index1024.css" media="screen and (min-width: 1024px) and (max-width:1279px)">
+<link rel="stylesheet" type="text/css" href="css/index1280.css" media="screen and (min-width: 1280px) and (max-width:1365px)">
+<link rel="stylesheet" type="text/css" href="css/index1366.css" media="screen and (min-width: 1366px) and (max-width:1439px)">
+<link rel="stylesheet" type="text/css" href="css/index1440.css" media="screen and (min-width: 1440px) and (max-width:1679px)">
+<link rel="stylesheet" type="text/css" href="css/index1680.css" media="screen and (min-width: 1680px) and (max-width:1920px)">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen and (min-width:1920px)">
+<link rel="stylesheet" type="text/css" href="css/index1024.css" media="screen and (max-width:1024px)">
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="page_box">
+		<div class="showreel">
+			<div class="header">
+			<div class="images_box">
+				<img class="header_img" src="images/header.jpg" alt="" />
+				<div class="play_video"></div>
+                <div class="video_box_1" style="visibility: hidden;">
+                    <video id="video0" src="video/2014-BITONE_ShowReel.mp4" preload="auto" controls="controls" style="height:100%;"></video>
+                    <div class="close_btn close_little"></div>
+                </div>
+			</div>
+			<div class="hd_bot clearFix">
+				<div class="fl hd_litimg">
+					<img src="images/header_left.jpg" alt="" />
+					<div class="play_litbtn"></div>
+					<div class="video_box">
+						<video id="video1" src="video/2014-BITONE_ShowReel.mp4" preload="auto" controls="controls" style="height:100%;"></video>
+						<div class="close_btn close_little"></div>
+					</div>
+					<div class="hd_text">
+						<h3 class="littlefont">2015</h3>
+						<p class="arialfont">SHOWREEL</p>
+					</div>
+				</div>
+				<div class="fl hd_litimg">
+					<img src="images/header_right.jpg" alt="" />
+					<div class="play_litbtn"></div>
+					<div class="video_box">
+						<video id="video2" src="video/2014-BITONE_ShowReel.mp4" preload="auto" controls="controls" style="height:100%;"></video>
+						<div class="close_btn close_little"></div>
+					</div>
+					<div class="hd_text">
+						<h3 class="littlefont">2014</h3>
+						<p class="arialfont">SHOWREEL</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="logo">
+				<h1>
+					<a href="index.html">
+						<img src="images/logo.png" alt="" />
+					</a>
+				</h1>
+				<div class="nav_icon">
+					<span></span>
+				</div>
+				<a class="en_icon" href="javascript:;" class="en_icon">
+					<span>EN</span>
+				</a>
+			</div>
+			<div class="click_pos"></div>
+			<div id="nav" class="nav xianheifont">
+				<!-- <ul>
+					<li>
+						<a href="Casehome.html">数字影像</a>
+					</li>
+					<li>
+						<a href="interact.html">VR互动</a>
+					</li>
+					<li>
+						<a href="numberindex.html">数字角色</a>
+					</li>
+					<li>
+						<a href="realimage.html">实拍影片</a>
+					</li>
+					<li class="pad_bot">
+						<a href="staticimage.html">静态大图</a>
+					</li>
+					<li class="border_top">
+						<a href="aboutus.html">公司介绍</a>
+					</li>
+					<li>
+						<a href="contact.html">联系方式</a>
+					</li>
+				</ul> -->
+			</div>
+		</div>
+		<div class="introduction">
+			<div class="intro_text middle">
+				<p class="xianheifont">BITONE 是全球领先的汽车虚拟影像应用解决方案供应商，拥有国际一流的创意与CG制作团队，</p>
+				<p class="xianheifont">将富有创意的解决方案与 CG技术紧密结合在一起，为客户提供超乎想象的视觉作品。</p>
+				<p class="xianheifont">BITONE利用最前沿的高端计算机图形技术将汽车企业的产品从工业数模转化成具备视觉震撼的影像。</p>
+			</div>
+			<div class="intro_bg">
+				<img src="images/intro_bg.jpg" alt="" />
+				<div class="intro_detail">
+					<div class="paragraph">
+						<p class="intro_title littlefont">2009</p>
+						<p class="xianheifont">比特视界（北京）科技有限公司成立属于易车集团旗下全资子公司</p>
+					</div>
+					<div class="paragraph">
+						<p class="intro_title littlefont">50</p>
+						<p class="xianheifont">植根于汽车行业多年，服务超过50家汽车企业参与了众多汽车品牌的重大营销事件，已成为“中国汽车虚拟影像应用解决方案第一品牌”</p>
+					</div>
+					<div class="paragraph">
+						<p class="intro_title littlefont">240</p>
+						<p class="xianheifont">为超过240款汽车提供虚拟影像应用服务，是国际上服务最多汽车品牌的虚拟影像解决方案供应商</p>
+					</div>
+					<div class="paragraph lastone">
+						<p class="intro_title littlefont">60</p>
+						<p class="xianheifont">制作超过60个品牌的汽车CG作品，与汽车企业内部部门无缝搭接，提供新车上市、大型车展、产品展厅包装的虚拟影像及虚拟体验的一站式解决方案</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="banner" class="banner">
+			<ul class="clearFix">
+				<li>
+					<a href="INFINITI.html">
+						<img src="images/example_hd1.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">英菲尼迪JX35全球发布影片</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="Mazda6.html">
+						<img src="images/example_hd2.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">马自达6水晶风暴篇</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="CHANGAN.html">
+						<img src="images/example_hd3.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">长安CS75全球发布影片</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="benz.html">
+						<img src="images/example_hd8.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">奔驰产品点详解</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="fengtian.html">
+						<img src="images/example_hd5.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">丰田双擎技术影片</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="changancs95.html">
+						<img src="images/changancs95.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">长安CS95全球发布影片</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="CHANGANCS15.html">
+						<img src="images/example_hd7.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">长安CS15全球发布影片</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="mazda_CX.html">
+						<img src="images/example_hd6.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">马自达CX-4全球发布影片</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="xiaomi.html">
+						<img src="images/example_hd9.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">小米5全球发布影片</p>
+						</div>
+					</a>
+				</li>
+
+				<li>
+					<a href="Vitara.html">
+						<img src="images/example_hd10.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">铃木维特拉创意影片</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="ruijie.html">
+						<img src="images/example_hd11.jpg" alt="" />
+						<div class="banner_text">
+							<h4 class="littlefont"></h4>
+							<p class="xianheifont">福特锐界全球发布影片</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ol>
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
+			<a id="prev" class="prev" href="javascript:;"></a>
+			<a id="next" class="next" href="javascript:;"></a>
+			<div class="control">
+				<img src="images/example_hd1.jpg" alt="" />
+			</div>
+		</div>
+		<div id="customer" class="customer">
+			<div class="littlefont middle">
+				<p class="aboutus_title">CLIENTS</p>
+				<div class="aboutus_line"></div>
+			</div>
+			<div class="customer_logos_line1">
+				<ul id="logoline1" class="logoline1">
+					<li class="no1 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no2 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no3 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no4 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no5 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no6 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no7 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no8 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no9 line1">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no10 line1">
+						<a href="javascript:;"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="customer_logos_line2">
+				<ul id="logoline2" class="logoline2">
+					<li class="no1 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no2 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no3 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no4 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no5 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no6 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no7 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no8 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no9 line2">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no10 line2">
+						<a href="javascript:;"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="customer_logos_line3">
+				<ul id="logoline3" class="logoline3">
+					<li class="no1 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no2 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no3 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no4 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no5 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no6 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no7 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no8 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no9 line3">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no10 line3">
+						<a href="javascript:;"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="customer_logos_line4">
+				<ul id="logoline4" class="logoline4">
+					<li class="no1 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no2 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no3 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no4 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no5 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no6 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no7 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no8 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no9 line4">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no10 line4">
+						<a href="javascript:;"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="customer_logos_line5">
+				<ul id="logoline5" class="logoline5">
+					<li class="no1 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no2 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no3 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no4 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no5 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no6 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no7 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no8 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no9 line5">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no10 line5">
+						<a href="javascript:;"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="customer_logos_line6">
+				<ul id="logoline6" class="logoline6">
+					<li class="no1 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no2 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no3 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no4 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no5 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no6 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no7 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no8 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no9 line6">
+						<a href="javascript:;"></a>
+					</li>
+					<li class="no10 line6">
+						<a href="javascript:;"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer" class="footer">
+			<!-- <div class="footer_warp">
+				<h2 class="xianheifont">联系方式</h2>
+				<a class="foot_logo fl" href="javascript:;">
+					<img src="images/logo.png" alt="" />
+				</a>
+				<div class="clearFix contact">
+					<div class="contact_beijing fl xianheifont">
+						<p>北京</p>
+						<p>北京市海淀区西外大街168号腾达大厦2206室</p>
+						<p>电话: +86 010 68393775</p>
+						<p>邮箱: info@bitone.com</p>
+					</div>
+					<div class="contact_shanghai fr xianheifont">
+						<p>上海</p>
+						<p>北京市海淀区西外大街168号腾达大厦2206室</p>
+						<p>电话: +86 010 68393775</p>
+						<p>邮箱: info@bitone.com</p>
+					</div>
+				</div>
+				<div class="contact_links clearFix">
+					<a class="youtube" href="javascript:;">
+						<img src="images/youtobe.jpg" alt="youtube" />
+					</a>
+					<a class="vChat" href="javascript:;">
+						<img src="images/iconv.jpg" alt="" />
+					</a>
+					<a class="weiChat" href="javascript:;">
+						<img src="images/weichat.jpg" alt="微信" />
+					</a>
+				</div>
+			</div> -->
+		</div>
+		<!--en-->
+		<!-- <div class="footer">
+			<div class="footer_warp">
+				<h2>联系方式</h2>
+				<div class="clearFix contact">
+					<div class="contact_beijing fl">
+						<p>Beijing Office</p>
+						<p>Room 2206, 22F, Tengda Plaza, No.168<br/>
+						Xiwai Street, Haidian District, Beijing, 100044, China</p>
+						<p>Tel: +86 010 68393775<br/>
+						Email: info@bitone.com</p>
+					</div>
+					<div class="contact_shanghai fr">
+						<p>Shanghai Office</p>
+						<p>Room 2206, 22F, Tengda Plaza, No.168<br/>
+						Xiwai Street, Haidian District, Beijing, 100044, China</p>
+						<p>Tel: +86 010 68393775<br/>
+						Email: info@bitone.com</p>
+					</div>
+				</div>
+				<div class="contact_links clearFix">
+					<a class="youtube" href="javascript:;">
+						<img src="images/youtobe.jpg" alt="youtube" />
+					</a>
+					<a class="vChat" href="javascript:;">
+						<img src="images/iconv.jpg" alt="" />
+					</a>
+					<a class="weiChat" href="javascript:;">
+						<img src="images/weichat.jpg" alt="微信" />
+					</a>
+				</div>
+			</div>
+		</div> -->
+	</div>
+	<script src="js/nav.js"></script>
+	<script src="js/footer.js"></script>
+<script>
+	/*var mySwiper = new Swiper ('.swiper-container', {
+		pagination: '.swiper-pagination',
+		loop:true,
+		autoplay:2500,
+		autoplayDisableOnInteraction:false
+	});*/
+	//轮播图
+	;(function(){
+		var timer=null;
+		var oBox=document.getElementById('banner');
+		var oUl=oBox.getElementsByTagName('ul')[0];
+		var aLi=oUl.children;
+		var oPrev=document.getElementById('prev');
+		var oNext=document.getElementById('next');
+		oBox.onmouseover=function()
+		{
+			oPrev.style.display='block';
+			oNext.style.display='block';
+			clearInterval(timer);
+		};
+		oBox.onmouseout=function()
+		{
+			oPrev.style.display='none';
+			oNext.style.display='none';
+			timer=setInterval(function(){
+				iNow++;
+				tab();
+			},2500);
+		};
+		window.onresize=function(){
+			for(var i=0;i<aLi.length;i++)
+			{
+				if(document.documentElement.clientWidth<=900)
+				{
+					aLi[i].style.width=1052+'px';
+				}
+				else
+				{
+					aLi[i].style.width=document.documentElement.clientWidth+'px';
+				}
+			}
+		}
+		var oOl=oBox.getElementsByTagName('ol')[0];
+		var aBtn=oOl.children;
+
+		var iNow=0;
+		oUl.innerHTML+=oUl.innerHTML;
+		oUl.style.width=aLi[0].offsetWidth*aLi.length+'px';
+		var w=oUl.offsetWidth/2;
+
+		for(var i=0;i<aBtn.length;i++)
+		{
+			(function(index){
+				aBtn[i].onclick=function()
+				{
+					//当前iNow是第aBtn.length-1个，点击index为第0个
+					if((iNow%aBtn.length==aBtn.length-1||iNow%aBtn.length==-1)&&index==0)
+					{
+						iNow++;
+					}
+					//当前iNow是第0个，点击index为aBtn.length-1个
+					if(iNow%aBtn.length==0&&index==aBtn.length-1)
+					{
+						iNow--;
+					}
+					iNow=Math.floor(iNow/aBtn.length)*aBtn.length+index;
+					tab();
+				};
+			})(i);
+		}
+		function tab()
+		{
+			for(var i=0;i<aBtn.length;i++)
+			{
+				aBtn[i].className='';
+			}
+			if(iNow<0)
+			{
+				iNow=(iNow%aBtn.length+aBtn.length)%aBtn.length;
+			}
+			aBtn[iNow%aBtn.length].className='active';
+			startMove(oUl,-iNow*aLi[0].offsetWidth);
+			//oUl.style.left=-(iNow%aBtn.length)*aLi[0].offsetWidth+'px';
+		}
+		var left=0;
+		function startMove(obj,iTarget)
+		{
+			var start=left;
+			var dis=iTarget-start;
+			var count=Math.floor(300/16);
+			var n=0;
+			clearInterval(obj.timer);
+			obj.timer=setInterval(function(){
+				n++;
+				var a=1-n/count;
+				left=start+dis*(1-Math.pow(a,3));
+				if(left<0)
+				{
+					obj.style.left=left%w+'px';
+				}
+				if(left>0)
+				{
+					obj.style.left=(left%w-w)%w+'px';
+				}
+				if(n==count)
+				{
+					clearInterval(obj.timer);
+				}
+			},16);
+		}
+		oPrev.onclick=function()
+		{
+			iNow--;
+			tab();
+		};
+		oNext.onclick=function()
+		{
+			iNow++;
+			tab();
+		};
+		timer=setInterval(function(){
+			iNow++;
+			tab();
+		},2500);
+	})();
+
+	//logos
+	;(function(){
+		function tick(sclass)
+		{
+			var oUl=document.getElementById(sclass);
+			var aLi=oUl.children;
+			var timer=null;
+			var iNow=0;
+			oUl.innerHTML+=oUl.innerHTML;
+			oUl.style.width=aLi[0].offsetWidth*aLi.length+'px';
+			var w=oUl.offsetWidth/2;
+
+			function tab()
+			{
+				iNow++;
+				if(iNow<0)
+				{
+					iNow=(iNow%aLi.length+aLi.length)%aLi.length;
+				}
+				startMove(oUl,-iNow*aLi[0].offsetWidth);
+			}
+			var left=0;
+			function startMove(obj,iTarget)
+			{
+				var start=left;
+				var dis=iTarget-start;
+				var count=Math.floor(300/16);
+				var n=0;
+				clearInterval(obj.timer);
+				obj.timer=setInterval(function(){
+					n++;
+					var a=1-n/count;
+					left=start+dis*(1-Math.pow(a,3));
+					if(left<0)
+					{
+						obj.style.left=left%w+'px';
+					}
+					if(left>0)
+					{
+						obj.style.left=(left%w-w)%w+'px';
+					}
+					if(n==count)
+					{
+						clearInterval(obj.timer);
+					}
+				},16);
+			}
+			timer=setInterval(tab,3000);
+		}
+		tick('logoline1');
+		setTimeout(function(){
+			tick('logoline3');
+		},500);
+		setTimeout(function(){
+			tick('logoline4');
+		},1000);
+		setTimeout(function(){
+			tick('logoline2');
+		},1500);
+		setTimeout(function(){
+			tick('logoline6');
+		},2000);
+		setTimeout(function(){
+			tick('logoline5');
+		},2500);
+	})();
+	;(function(){
+		// 点击播放视频
+		;(function(){
+            var oVideo_0=document.getElementById('video0');
+			$('.play_video').click(function(){
+                $('.video_box_1').eq(0).css('visibility','visible');
+                $(this).css('visibility','hidden');
+                oVideo_0.play();
+			});
+
+			$('.close_btn').eq(0).click(function(){
+                $('.video_box_1').eq(0).css('visibility','hidden');
+                $('.play_video').css('visibility','visible');
+                oVideo_0.pause();
+                oVideo_0.currentTime=0;
+			});
+
+
+			oVideo_0.onended=function(){
+				setTimeout(function(){
+					$('.video_box_1').eq(0).css('visibility','hidden');
+				},3000);
+			};
+		})();
+		;(function(){
+			var oVideo=document.getElementById('video1');
+			$('.play_litbtn').eq(0).click(function(){
+				$('.video_box').eq(0).css('visibility','visible');
+				oVideo.play();
+			});
+
+			$('.close_btn').eq(1).click(function(){
+				$('.video_box').eq(0).css('visibility','hidden');
+				oVideo.pause();
+				oVideo.currentTime=0;
+			});
+			oVideo.onended=function(){
+				setTimeout(function(){
+					$('.video_box').eq(0).css('visibility','hidden');
+				},3000);
+			};
+		})();
+
+		;(function(){
+			var oVideo=document.getElementById('video2');
+			$('.play_litbtn').eq(1).click(function(){
+				$('.video_box').eq(1).css('visibility','visible');
+				oVideo.play();
+			});
+
+			$('.close_btn').eq(2).click(function(){
+				$('.video_box').eq(1).css('visibility','hidden');
+				oVideo.pause();
+				oVideo.currentTime=0;
+			});
+			oVideo.onended=function(){
+				setTimeout(function(){
+					$('.video_box').eq(1).css('visibility','hidden');
+				},3000);
+			};
+		})();
+	})();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
